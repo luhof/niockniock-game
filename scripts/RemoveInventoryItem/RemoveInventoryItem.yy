@@ -1,8 +1,8 @@
 {
-    "id": "50d05894-4a2c-45eb-be1a-3ab49d130e25",
+    "id": "a5aeca45-3dd6-4f69-be0c-e30078086a60",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "GiveItem",
+    "name": "RemoveInventoryItem",
     "IsCompatibility": false,
     "IsDnD": false
 }

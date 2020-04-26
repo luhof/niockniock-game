@@ -7,6 +7,8 @@ var _scr = argument0;
 var _args = argument1;
 
 switch (array_length_1d(_args)) {
+	
+ case 0: return script_execute(_scr);
  
  case 1: return script_execute(_scr, _args[0]);
  

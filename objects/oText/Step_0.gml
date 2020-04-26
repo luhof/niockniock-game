@@ -26,22 +26,22 @@ if(keyboard_check_pressed(vk_space))
 				DialogResponses(other.responseScripts[other.responseSelected]);
 			}
 		}
-		
-		//is there any callback ?
-		else if(callbackScript){
-			with(originInstance){
-				ScriptExecuteArray(callbackScript, callbackScriptArgs);	
-			}
-		}
-		
+
 		// we destroy the text and display next one
 		instance_destroy();
 		if(instance_exists(oTextQueued)){
 			with(oTextQueued) ticket--;	
 		}
-		//no more text so we reset
 		else{
-			with(oPlayer) state = lastState;	
+			//no more text so we reset
+			with(oPlayer) state = lastState;
+		}
+		
+		//is there any callback ? we do it in the end if we need to change state
+		if(callbackScript != -1){
+			with(originInstance){
+				ScriptExecuteArray(other.callbackScript, other.callbackScriptArgs);
+			}
 		}
 		
 	}

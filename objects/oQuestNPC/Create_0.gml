@@ -7,3 +7,4 @@ image_speed = 0;
 
 wantedItem = ITEMS.COIN;
 
+

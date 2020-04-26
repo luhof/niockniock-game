@@ -19,7 +19,7 @@ if(_oldSprite != sprite_index) localFrame = 0;
 PlayerAnimateScript();
 
 if(keyInv){
-	state = InventoryCheckState;
+	state = PlayerStateInventory;
 	oInventory.inventoryOpened = true;
 	oInventory.inventoryJustHasBeenOpened = true;
 }

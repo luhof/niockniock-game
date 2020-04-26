@@ -1,7 +1,12 @@
-/// @description 
+/// @description onInteract
 
-NewTextBox("hey i'm leunk");
-NewTextBox("wtf are you talking about ?");
-NewTextBox("i'm lonely");
-GiveItem(self);
+if(happy){
+	NewTextBox("thank you so muchhhh");	
+	NewTextBox("u r da coolest");
+}
+else{
+	NewTextBox("hey i'm leunk");
+	NewTextBox("wtf are you talking about ?", 1, -1, OpenInventoryNPC);
+}
+
 
