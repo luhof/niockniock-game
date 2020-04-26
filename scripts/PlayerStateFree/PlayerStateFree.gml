@@ -27,8 +27,8 @@ if(keyInv){
 //change state
 else if(keyActivate){
 	
-	var _activateX = lengthdir_x(10, direction);
-	var _activateY = lengthdir_y(10, direction);
+	var _activateX = lengthdir_x(20, direction);
+	var _activateY = lengthdir_y(20, direction);
 	
 	// check for entity to activate
 	activate = instance_position(x+_activateX, y+_activateY, pEntity);
