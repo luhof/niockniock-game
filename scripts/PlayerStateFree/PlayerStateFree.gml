@@ -22,20 +22,20 @@ if(keyInv){
 	state = PlayerStateInventory;
 	oInventory.inventoryOpened = true;
 	oInventory.inventoryJustHasBeenOpened = true;
+	oInventory.itemSelected = 0;
 }
 
 //change state
-else if(keyActivate){
+else if(keyActivate && !stateJustChanged){
 	
-	var _activateX = lengthdir_x(20, direction);
-	var _activateY = lengthdir_y(20, direction);
+	var _activateX = lengthdir_x(15, direction);
+	var _activateY = lengthdir_y(15, direction);
 	
 	// check for entity to activate
 	activate = instance_position(x+_activateX, y+_activateY, pEntity);
 	
-	if(activate == noone || activate.entityActivateScript == -1){
+	if(activate == noone){
 		// 2 nothing
-	
 	}
 	else{
 		// 3 activate object script
@@ -50,8 +50,13 @@ else if(keyActivate){
 				image_index = CARDINAL_DIR;
 			}
 		}
+		else if (activate.entityActivateScript != -1){
+			ScriptExecuteArray(activate.entityActivateScript, activate.entityActivateArgs);	
+		}
 		
 	}
 	
 	
 }
+
+stateJustChanged = false;

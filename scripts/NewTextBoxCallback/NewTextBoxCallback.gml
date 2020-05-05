@@ -4,4 +4,10 @@
 /// @arg callback
 /// @arg callbackArgs
 
-NewTextBox(argument[0], argument[1], -1, argument[2], argument[3]);
+if(argument_count > 3){
+	NewTextBox(argument[0], argument[1], -1, argument[2], argument[3]);
+}
+else{
+	NewTextBox(argument[0], argument[1], -1, argument[2]);
+}
+

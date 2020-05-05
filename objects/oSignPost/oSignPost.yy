@@ -14,15 +14,15 @@
             "mvc": "1.0",
             "objectId": "d9078630-3f5b-4945-98e1-64628c983360",
             "propertyId": "b095fb95-b681-4936-8b21-9e234677f453",
-            "value": "False"
+            "value": "True"
         },
         {
-            "id": "e1cf5970-35ef-4a7f-9e21-84faed7330c3",
+            "id": "a9f68615-7b88-4690-9d84-49d66822cb3d",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "d9078630-3f5b-4945-98e1-64628c983360",
-            "propertyId": "c856ea8d-107f-4053-aaa9-623600f1c789",
-            "value": "EntityHitSolid"
+            "propertyId": "d9e3955f-07cd-4034-9c1f-d29585bcd079",
+            "value": "True"
         }
     ],
     "parentObjectId": "d9078630-3f5b-4945-98e1-64628c983360",

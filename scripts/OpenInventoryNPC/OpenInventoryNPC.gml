@@ -8,6 +8,7 @@ with(oPlayer){
 }
 
 with(oInventory){
+	itemSelected = 0;
 	inventoryOpened = true;
 	inventoryJustHasBeenOpened = true;
 	receiver = other;

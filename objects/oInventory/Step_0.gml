@@ -24,7 +24,9 @@ if(_keyLeft || _keyRight){
 }
 
 // item selected. We close the inventory
-if(keyboard_check_pressed(vk_space)){
+if(!inventoryJustHasBeenOpened &&
+	(keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_tab))
+){
 	inventoryOpened = false;
 	oPlayer.state = PlayerStateFree;
 	if(receiver != noone){
@@ -33,6 +35,7 @@ if(keyboard_check_pressed(vk_space)){
 			event_user(1);	
 		}
 	}
+	itemSelected = -1;
 	receiver = noone;
 	
 }
