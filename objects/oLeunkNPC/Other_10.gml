@@ -2,10 +2,11 @@
 
 if(happy){
 	NewTextBox("Thank you so much!");	
-	NewTextBox("U r the coolest!");
+	NewTextBox("You are the coolest!");
 }
 else{
-	NewTextBoxChoice("Yo ! Do you have anything for me ?", 1, ["4:Yes !","0:Nop"]);
+	NewTextBox("Yo ! I'm #2Leunk#0!");
+	NewTextBoxChoice("You have something for me?", 1, ["4:Yeap!","0:No"]);
 }
 
 

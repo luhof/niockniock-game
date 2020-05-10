@@ -1,26 +1,83 @@
 /// @description draw textbox
-NineSliceBoxStretched(sTextBoxBg, x1, y1, x2, y2, background);
+
+// typewriter
+// typewriter vars
+var charWidth = 8;
+var line = 0;
+var i = 1;
+var space = 0;
+var delay = 3;
+
+draw_sprite(sDialogBg, 0, x1, y1);
+//NineSliceBoxStretched(sTextBoxBg, x1, y1, x2, y2, background);
 draw_set_font(fText);
-draw_set_halign(fa_center);
+draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
-var _print = string_copy(message, 1, textProgress);
+draw_set_color(c_black);
 
-if(responses[0] != -1) && (textProgress >= string_length(message))
+var _print = string_copy(message, 1, string_length(message));
+
+if(responses[0] != -1)
 {
-	for(var i = 0; i < array_length_1d(responses); i++)
+	for(var j = 0; j < array_length_1d(responses); j++)
 	{
-		_print += "\n";
-		if(i == responseSelected) _print += "> ";
-		_print += responses[i];
-		if(i == responseSelected) _print += " <";
+		_print += "#n";
+		if(j == responseSelected) _print += "#2";
+		_print += "- "+ responses[j];
+		if(j == responseSelected) _print += "#0";
 	}
 }
 
-draw_set_color(c_black);
-//draw_text((x1+x2/2), y1+8, _print);
-draw_text(RESOLUTION_W/2, y1+8, _print);
+if(cutoff < string_length(message) && !isFastened){
+	if(timer >= delay){
+		cutoff++;
+		timer = 0;
+	}
+	else timer++;
+}
+else{
+	cutoff = string_length(_print);	
+}
 
-draw_set_color(c_white);
-draw_text(RESOLUTION_W/2, y1+7, _print);
+
+modifier = 0;
+while(i <= string_length(_print) && i <= cutoff){
+	
+	while(string_char_at(_print, i) == "#"){
+		var code = string_char_at(_print, ++i);
+		if(code == "n"){
+			space = 0;
+			line++;	
+		}
+		else{
+			modifier = real(code);
+		}
+		++i;
+	}
+	
+	switch(modifier){
+		case 0: //normal
+		{
+			draw_set_colour(c_black);
+			draw_text(x1 + xPadding + (space * charWidth), y1+yPadding+(13*line), string_char_at(_print, i));
+			break;
+		}
+		case 1: //shaky
+		{
+			draw_set_colour(c_black);
+			draw_text(x1 + xPadding+ (space * charWidth) + random_range(-1, 1), y1+yPadding+(13*line) + random_range(-1, 1), string_char_at(_print, i));
+			break;
+		}
+		case 2: //red
+		{
+			draw_set_colour(c_red);
+			draw_text(x1 + xPadding + (space * charWidth), y1+yPadding+(13*line), string_char_at(_print, i));
+			break;
+		}
+	}
+
+	space++;
+	i++;
+}
 

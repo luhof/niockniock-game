@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "493b02fd-b694-405a-9632-435a9ef7b8bd",
+            "Value": {
+                "id": "1cc54a5f-445d-4c30-91c4-bd85e3f247fe",
+                "resourcePath": "sprites\\sDialogBg\\sDialogBg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4b09b911-6175-4d20-aa60-8f4237f67281",
             "Value": {
                 "id": "1d7a4a80-5dfa-4c82-be44-f90cc23407f3",
