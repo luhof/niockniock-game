@@ -4,6 +4,7 @@
 // typewriter vars
 var charWidth = 8;
 var line = 0;
+var lineEnd = 25;
 var i = 1;
 var space = 0;
 var delay = 3;
@@ -55,6 +56,18 @@ while(i <= string_length(_print) && i <= cutoff){
 		}
 		++i;
 	}
+	
+	// go to next line ?
+	var length = 0;
+	while(string_char_at(_print, i) != " " && i < string_length(_print)){
+		i++;
+		length++;
+	}
+	if(space + length > lineEnd){
+		space = 0;
+		line++;
+	}
+	i-= length;
 	
 	switch(modifier){
 		case 0: //normal

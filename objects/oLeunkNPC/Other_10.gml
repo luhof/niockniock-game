@@ -5,7 +5,7 @@ if(happy){
 	NewTextBox("You are the coolest!");
 }
 else{
-	NewTextBox("Yo ! I'm #2Leunk#0!");
+	NewTextBox("Yo ! I'm #2Leunk#0! How are you today?");
 	NewTextBoxChoice("You have something for me?", 1, ["4:Yeap!","0:No"]);
 }
 
