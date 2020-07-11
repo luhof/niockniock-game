@@ -1,9 +1,9 @@
 /// @description ?
 
-var alphaItemDraw = inventoryOpened ? 1 : 1;
+var alphaItemDraw = inventoryOpened ? 1 : 0.5;
 
 
-draw_sprite(sInventoryBackGround, 0, 0, 0);
+draw_sprite_ext(sInventoryBackGround, 0, 0, 0, 1, 1, 0, c_white, alphaItemDraw);
 
 
 draw_set_alpha(alphaItemDraw);

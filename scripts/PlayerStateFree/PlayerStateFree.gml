@@ -18,6 +18,9 @@ if(_oldSprite != sprite_index) localFrame = 0;
 //update image index
 PlayerAnimateScript();
 
+//check if we are near entity
+
+
 if(keyInv){
 	state = PlayerStateInventory;
 	oInventory.inventoryOpened = true;
@@ -33,9 +36,13 @@ else if(keyActivate && !stateJustChanged){
 	
 	// check for entity to activate
 	activate = instance_position(x+_activateX, y+_activateY, pEntity);
-	
 	if(activate == noone){
-		// 2 nothing
+		//crappy collision
+		activate = instance_position(x+(_activateX*2), y+(_activateY*2), pEntity);
+	}
+	//var activate = distance_to_object(pEntity);
+	if(activate == noone){
+		//do nothing	
 	}
 	else{
 		// 3 activate object script
@@ -48,6 +55,11 @@ else if(keyActivate && !stateJustChanged){
 			with(activate){
 				direction = point_direction(x, y, other.x, other.y);	
 				image_index = CARDINAL_DIR;
+			}
+		}
+		else if(activate.entityPickup){
+			with(activate){
+				event_user(0);	
 			}
 		}
 		else if (activate.entityActivateScript != -1){

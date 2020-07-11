@@ -10,7 +10,8 @@
         "4871990d-d7aa-4ee9-a470-32cdffdaa652",
         "b33d3809-a12a-4279-a00e-230516a6decb",
         "e07fa4a0-fc84-4578-af53-e1a48238d2a6",
-        "493b02fd-b694-405a-9632-435a9ef7b8bd"
+        "493b02fd-b694-405a-9632-435a9ef7b8bd",
+        "66d71e3b-2f63-46a1-b6c6-bc81b9fcb797"
     ],
     "filterType": "GMSprite",
     "folderName": "hud",

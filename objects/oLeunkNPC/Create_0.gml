@@ -5,6 +5,6 @@ event_inherited();
 
 image_speed = 0;
 
-wantedItem = ITEMS.NUDEMAG;
+wantedItem = ITEMS.MAP;
 
 

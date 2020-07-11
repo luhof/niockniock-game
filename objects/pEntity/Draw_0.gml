@@ -11,3 +11,7 @@ draw_sprite_ext(
 	image_blend,
 	image_alpha
 );
+
+if(isFocused){
+	draw_sprite_ext(sQuestionMark, 0, x, y, 1, 1, 0, c_white, 1);	
+}

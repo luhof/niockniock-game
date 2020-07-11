@@ -1,4 +1,7 @@
 /// @description directly go to follow when room enter
+follow = oPlayer;
+cam = view_camera[0];
+
 if(instance_exists(follow)){
 	x = follow.x;
 	y = follow.y;

@@ -36,8 +36,6 @@ c_white,
 1.0
 );
 
-
-
 //draw text
 draw_set_colour(c_white);
 var objName =  global.items[# currObject, ITEM.NAME];
@@ -53,4 +51,4 @@ draw_text_transformed(RESOLUTION_W/2+32, RESOLUTION_H/2 + currY, "You got a\n" +
 draw_set_font(fText);
 draw_set_color(c_black);
 draw_text_transformed(RESOLUTION_W/2, RESOLUTION_H-24 + currY,"\""+objDesc+"\"", image_xscale, image_yscale, currShadowRotate);
-//draw_text_colour(100, 200, string(health), c_lime, c_lime, c_green, c_green, 1);
+draw_text_colour(100, 200, string(health), c_lime, c_lime, c_green, c_green, 1);

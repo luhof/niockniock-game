@@ -10,6 +10,10 @@ global.iCamera = instance_create_layer(0, 0, layer, oCamera);
 
 room_goto(ROOM_START);
 
+playerSpawnX = undefined;
+playerSpawnY = undefined;
+latestSpriteIndex = undefined;
+
 //custom : intenvory
 
 

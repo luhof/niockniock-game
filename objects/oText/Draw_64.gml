@@ -9,7 +9,7 @@ var i = 1;
 var space = 0;
 var delay = 3;
 
-draw_sprite(sDialogBg, 0, x1, y1);
+draw_sprite(sDialogBg, background, x1, y1);
 //NineSliceBoxStretched(sTextBoxBg, x1, y1, x2, y2, background);
 draw_set_font(fText);
 draw_set_halign(fa_left);
@@ -24,7 +24,7 @@ if(responses[0] != -1)
 	for(var j = 0; j < array_length_1d(responses); j++)
 	{
 		_print += "#n";
-		if(j == responseSelected) _print += "#2";
+		if(j == responseSelected) _print += "#3";
 		_print += "- "+ responses[j];
 		if(j == responseSelected) _print += "#0";
 	}
@@ -34,6 +34,11 @@ if(cutoff < string_length(message) && !isFastened){
 	if(timer >= delay){
 		cutoff++;
 		timer = 0;
+		if(cutoff % 2 == 0){	
+			var soundSpeak = audio_play_sound(sndSpeak, 10, false);
+			var pitch = (background != 1 ? random_range(0.6, 1.4) : random_range(0.7, 0.9));
+			audio_sound_pitch(soundSpeak, pitch);
+		}
 	}
 	else timer++;
 }
@@ -86,6 +91,12 @@ while(i <= string_length(_print) && i <= cutoff){
 		{
 			draw_set_colour(c_red);
 			draw_text(x1 + xPadding + (space * charWidth), y1+yPadding+(13*line), string_char_at(_print, i));
+			break;
+		}
+		case 3: //selected
+		{
+			draw_set_colour(c_red);
+			draw_text(x1 + Wave(0, 3, 1, 0) +xPadding + (space * charWidth), y1+yPadding+(13*line), string_char_at(_print, i));
 			break;
 		}
 	}

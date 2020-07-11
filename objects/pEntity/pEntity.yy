@@ -155,6 +155,20 @@
             "value": "True",
             "varName": "entityShadow",
             "varType": 3
+        },
+        {
+            "id": "3bb7dd8d-e206-4468-b794-3da9f4fbb7a0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "entityPickup",
+            "varType": 3
         }
     ],
     "solid": false,

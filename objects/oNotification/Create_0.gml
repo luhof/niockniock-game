@@ -1,4 +1,4 @@
-/// @description ?
+/// @description create
 currShadowRotate = 0;
 currObject = ITEMS.COIN;
 
@@ -8,6 +8,7 @@ needDelete = false;
 yToDelete = -RESOLUTION_H;
 
 
+audio_play_sound(sndGotItem, 10, false);
 with(oPlayer){
 	state = PlayerStateLocked;
 }

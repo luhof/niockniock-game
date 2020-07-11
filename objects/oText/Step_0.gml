@@ -5,6 +5,10 @@ keyUp = keyboard_check_pressed(vk_up);
 keyDown = keyboard_check_pressed(vk_down);
 responseSelected += (keyDown - keyUp);
 
+if(keyUp || keyDown){
+	audio_play_sound(sndMenuMove, 10, false);	
+}
+
 var _max = array_length_1d(responses)-1;
 var _min = 0;
 
@@ -19,6 +23,7 @@ if(keyboard_check_pressed(vk_space))
 		//are there any responses ?
 		if(responses[0] != -1)
 		{
+			audio_play_sound(sndSpeakSkip, 11, false);
 			with(originInstance)
 			{
 				DialogResponses(other.responseScripts[other.responseSelected]);
@@ -28,6 +33,7 @@ if(keyboard_check_pressed(vk_space))
 		// we destroy the text and display next one
 		instance_destroy();
 		if(instance_exists(oTextQueued)){
+			audio_play_sound(sndSpeakSkip, 11, false);
 			with(oTextQueued) ticket--;	
 		}
 		else{
