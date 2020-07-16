@@ -743,6 +743,14 @@
             }
         },
         {
+            "Key": "57558481-1f9c-41a3-9590-f181d96c74a6",
+            "Value": {
+                "id": "de81374f-dcd3-464e-899e-651127908639",
+                "resourcePath": "rooms\\rFamilyInside\\rFamilyInside.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "5a066b5d-a0f4-4acf-93da-9ee214c6c4ce",
             "Value": {
                 "id": "6b45270a-bae2-4e89-89cc-d37c058bd77b",
@@ -783,11 +791,35 @@
             }
         },
         {
+            "Key": "5ec5a11e-39de-44ac-b504-5fe13a05b323",
+            "Value": {
+                "id": "da1c3fd8-0931-4a1a-8bbc-5467bd5eb1df",
+                "resourcePath": "sprites\\sWizardHut\\sWizardHut.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "61b5f3c9-7bdd-48f8-9bb9-69560dbaa8c4",
+            "Value": {
+                "id": "ced5a58d-b4ec-40aa-afba-46a237b08d53",
+                "resourcePath": "sprites\\sFamilyInside\\sFamilyInside.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "62fde625-186e-4134-b9ab-9d801eee3978",
             "Value": {
                 "id": "6fa5c556-73bb-47df-8569-e8158bde1a95",
                 "resourcePath": "views\\62fde625-186e-4134-b9ab-9d801eee3978.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "63cd1358-0e2f-4657-b57c-b64d3e2b852e",
+            "Value": {
+                "id": "b4dcc929-1b8a-4fdb-aa05-cf02d07686c6",
+                "resourcePath": "objects\\oBabyNPC\\oBabyNPC.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -959,6 +991,14 @@
             }
         },
         {
+            "Key": "76fde65e-eade-45a6-a686-711f2fa1ac0a",
+            "Value": {
+                "id": "368530ac-f307-423d-8fc0-8ba745f22748",
+                "resourcePath": "sprites\\sGarageInside\\sGarageInside.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "777d6b7a-8c80-4256-af9f-086b7ba06a0d",
             "Value": {
                 "id": "1f3286bb-4b48-4081-bcd6-7486d4ef8ef6",
@@ -1060,6 +1100,14 @@
                 "id": "4fa43715-1197-4ff8-b6da-953334ec970f",
                 "resourcePath": "scripts\\NewTextBoxChoice\\NewTextBoxChoice.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "883ccdb1-235a-431a-b0ad-1994d5d7eeb3",
+            "Value": {
+                "id": "3ec2a8c9-e0d1-4c63-b4b4-9148765fbf5b",
+                "resourcePath": "rooms\\rGarage\\rGarage.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1527,6 +1575,14 @@
             }
         },
         {
+            "Key": "d760a805-dadd-4cdd-8163-2341dc3d8445",
+            "Value": {
+                "id": "96ad2496-c393-4c6c-be10-4597a256366f",
+                "resourcePath": "sprites\\sSatanInside\\sSatanInside.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d9078630-3f5b-4945-98e1-64628c983360",
             "Value": {
                 "id": "ee87fa95-86cc-4a4d-9288-57fb534aae67",
@@ -1548,6 +1604,14 @@
                 "id": "1cedeee8-b628-43a0-827f-7607de6c29e3",
                 "resourcePath": "scripts\\EntityHitSolid\\EntityHitSolid.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "dce462fe-4a17-4edb-8c42-fb6cdb481735",
+            "Value": {
+                "id": "2fbc24ae-4f97-4e0d-81f2-01fcc9e9187a",
+                "resourcePath": "rooms\\rShop\\rShop.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1839,11 +1903,27 @@
             }
         },
         {
+            "Key": "f9edef14-909b-4a82-a9ac-380b235ebef6",
+            "Value": {
+                "id": "56519bfe-9d24-4d5e-9da0-644fdb07a3db",
+                "resourcePath": "sprites\\sShopInside\\sShopInside.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fa41ac1d-ffd8-4288-8e98-12fc67738166",
             "Value": {
                 "id": "d9b4c2d7-f25c-4533-8ffb-d86931539609",
                 "resourcePath": "sprites\\sRoomFloor\\sRoomFloor.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fc6b6942-e903-4d8f-9d18-7cd510696c2e",
+            "Value": {
+                "id": "8c328ad6-b9d3-4bc8-84db-5e2c0165f173",
+                "resourcePath": "rooms\\rSatanInside\\rSatanInside.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

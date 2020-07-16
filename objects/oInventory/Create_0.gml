@@ -62,6 +62,7 @@ AddDBItem(ITEMS.YOUDEAD, "Your dead corpse", "You shared fun memories with this 
 
 //debug : add some elements to inventory
 ds_list_add(global.inventory, ITEMS.YOU);
+ds_list_add(global.inventory, ITEMS.TOYRING);
 /*ds_list_add(global.inventory, ITEMS.BATWING);
 ds_list_add(global.inventory, ITEMS.COIN);
 ds_list_add(global.inventory, ITEMS.POPCORN);

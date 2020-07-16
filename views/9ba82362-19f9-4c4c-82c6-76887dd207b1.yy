@@ -20,7 +20,12 @@
         "71fcd6d0-7e99-4a05-86df-da6aed9cf0ed",
         "49086591-1205-4fa9-b940-1627d4ff0438",
         "7dbd6940-9191-4f2c-9d83-f9a50fc4b13b",
-        "45f4d281-7dc0-4c3a-bad3-fd45aa59796b"
+        "45f4d281-7dc0-4c3a-bad3-fd45aa59796b",
+        "61b5f3c9-7bdd-48f8-9bb9-69560dbaa8c4",
+        "5ec5a11e-39de-44ac-b504-5fe13a05b323",
+        "f9edef14-909b-4a82-a9ac-380b235ebef6",
+        "d760a805-dadd-4cdd-8163-2341dc3d8445",
+        "76fde65e-eade-45a6-a686-711f2fa1ac0a"
     ],
     "filterType": "GMSprite",
     "folderName": "RoomsBg",
