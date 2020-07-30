@@ -2,8 +2,8 @@
 
 if(!happy){
 	NewTextBox("Hi, Niock Niock!");	
-	NewTextBox("Are you looking for my kids?");
-	NewTextBox("They are in the #2garage#0. Probably doing their homework.");
+	NewTextBox("Are you looking for my #2teenager#0?");
+	NewTextBox("He's in the #2garage#0. Probably doing his homework.");
 	NewTextBox("Oh, the #2crying#0? It's my baby, in the other room.");
 	NewTextBox("He won't stop crying...");
 }

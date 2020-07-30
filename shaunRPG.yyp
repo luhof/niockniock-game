@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "03ca5cf1-d2fc-45bf-bb54-deff8d661606",
+            "Value": {
+                "id": "329fc9e5-9802-44db-b2d1-d8b1eaed23e1",
+                "resourcePath": "objects\\oSatan\\oSatan.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "04180296-97fb-4b07-b78c-c2e3fb33f138",
             "Value": {
                 "id": "e6427530-3df6-4ee8-9f9d-e04aeb1708ec",
@@ -207,6 +215,22 @@
             }
         },
         {
+            "Key": "119991ed-2ea6-48d0-89b8-c7df773f5567",
+            "Value": {
+                "id": "c7f44653-4e57-40bf-9deb-03edc1534fd0",
+                "resourcePath": "sprites\\sprite94\\sprite94.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "132c3c7c-e3ed-4064-97ec-c34471fce554",
+            "Value": {
+                "id": "cfc1cc2e-ea66-4d58-8991-410eba040b12",
+                "resourcePath": "sprites\\sInteraction\\sInteraction.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "149761e5-6cc7-4bf9-ab4a-350e2fb022a9",
             "Value": {
                 "id": "721919a0-1721-441d-94f7-9e2eca908283",
@@ -324,6 +348,14 @@
                 "id": "2debad08-6f75-49eb-b294-a54d2d9713cd",
                 "resourcePath": "sprites\\sMovieHost\\sMovieHost.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "22e3b1b4-678b-41df-b9c2-b9ee4dd29842",
+            "Value": {
+                "id": "4f3f4796-222f-4336-ab69-c8498c20a1bc",
+                "resourcePath": "objects\\oGuitarNPC\\oGuitarNPC.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -447,6 +479,14 @@
             }
         },
         {
+            "Key": "3b833718-2c65-449c-8046-74d1f90203ad",
+            "Value": {
+                "id": "f75820ce-f98e-482d-80b7-35b05b0b7797",
+                "resourcePath": "objects\\oShopKeeperNPC\\oShopKeeperNPC.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3d199281-56ae-4b4b-a7ce-a838f50a59c2",
             "Value": {
                 "id": "50c46332-5b2d-4575-8dda-dca21f9d9e71",
@@ -516,6 +556,14 @@
                 "id": "cfce1a34-afa4-46f2-8002-63769cf04bbc",
                 "resourcePath": "scripts\\AddDBItem\\AddDBItem.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "43fd93b4-15fa-4801-8987-7adc954076fe",
+            "Value": {
+                "id": "2b7c9ec5-b865-4ddd-af6b-81758d4a6cfa",
+                "resourcePath": "objects\\oTeenagerNPC\\oTeenagerNPC.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -703,6 +751,14 @@
             }
         },
         {
+            "Key": "53adad6f-f8d7-47eb-9f04-22716a6366ff",
+            "Value": {
+                "id": "4df960a4-32ce-4d5a-bfc7-97836363782d",
+                "resourcePath": "sprites\\sGuitarPickup\\sGuitarPickup.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "554d3ab6-4b54-44c9-92dc-78674e34daf0",
             "Value": {
                 "id": "8237cc86-afb7-4fe2-9b13-831395ba38ed",
@@ -748,6 +804,14 @@
                 "id": "de81374f-dcd3-464e-899e-651127908639",
                 "resourcePath": "rooms\\rFamilyInside\\rFamilyInside.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "58602e2a-cdfd-439e-80c1-8d080d4f9a9e",
+            "Value": {
+                "id": "a1650903-e8f5-4e46-922a-82ad135fce8b",
+                "resourcePath": "sprites\\sCornCorpse\\sCornCorpse.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -855,6 +919,14 @@
             }
         },
         {
+            "Key": "65e58901-34c3-4dc8-90b2-3023c17efb21",
+            "Value": {
+                "id": "e666ffaa-96de-43e7-b43a-a5467c9f3dd3",
+                "resourcePath": "sprites\\sTeenager\\sTeenager.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "65f97f59-0dc8-44d9-ad30-2345563405ab",
             "Value": {
                 "id": "1f0c7c81-9275-4e3c-9f81-d81154a788d2",
@@ -867,6 +939,14 @@
             "Value": {
                 "id": "85cf83ca-cb10-4183-b894-a649216bd574",
                 "resourcePath": "objects\\oMotherNPC\\oMotherNPC.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "66781af8-2ed2-4cd4-9b72-ad9033d96af1",
+            "Value": {
+                "id": "6a2ca08d-b1ff-4c06-a853-fa5416d0edd1",
+                "resourcePath": "objects\\oSatanPickup\\oSatanPickup.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1391,6 +1471,14 @@
             }
         },
         {
+            "Key": "ae63a7d1-368b-4b0e-8ea4-4d4ae8cb9537",
+            "Value": {
+                "id": "18273bdd-6d10-4c56-bdae-80172f9053d2",
+                "resourcePath": "objects\\oPickupSatanInstruction\\oPickupSatanInstruction.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "af954eca-75f8-4bdd-acd2-3c2488bc52a0",
             "Value": {
                 "id": "967b4b72-6bda-4d70-985c-261a97ecc2c2",
@@ -1503,11 +1591,35 @@
             }
         },
         {
+            "Key": "cb01f6d3-c179-4056-88b9-b7f166e3a918",
+            "Value": {
+                "id": "81e1afd7-92ed-4f5a-8d65-cde8470dbd59",
+                "resourcePath": "sprites\\sEmptySatanSlot\\sEmptySatanSlot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cbea5fea-6d71-4e93-8a15-9c959796ae6b",
+            "Value": {
+                "id": "791dca5e-909a-4ca4-9b10-c3ba3232fa69",
+                "resourcePath": "scripts\\LaunchUserEvent3\\LaunchUserEvent3.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "577ba177-5561-4110-bdee-7333bb044e15",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ccfd4442-ebc5-487a-a065-96bb859bc25b",
+            "Value": {
+                "id": "f15c34d3-618b-48c4-8352-eb81bba300fa",
+                "resourcePath": "rooms\\rSatanLair\\rSatanLair.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1572,6 +1684,14 @@
                 "id": "7aafa7f6-1c98-4096-bb83-1d82db396a4c",
                 "resourcePath": "sounds\\sndGotItem\\sndGotItem.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "d757c892-0bc8-4ca4-b4b4-13f83e385847",
+            "Value": {
+                "id": "342093ee-41a8-47f5-855c-83324b816b8a",
+                "resourcePath": "scripts\\goToRoom\\goToRoom.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1933,6 +2053,14 @@
                 "resourcePath": "rooms\\rWizard\\rWizard.yy",
                 "resourceType": "GMRoom"
             }
+        },
+        {
+            "Key": "fdf49a62-1852-4134-8729-6a58b6d96d62",
+            "Value": {
+                "id": "0451d5a0-0c52-4eba-bdc1-242586b85f00",
+                "resourcePath": "sprites\\sShopkeeper\\sShopkeeper.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
@@ -1958,7 +2086,9 @@
         "4140ea85-94f1-4dd7-ad68-a3b69e300f88",
         "952e2e18-6e71-4fb6-adee-5d8d97737801",
         "a5aeca45-3dd6-4f69-be0c-e30078086a60",
-        "6a63d5f3-b81f-4d1d-9d3c-67fe5be9d221"
+        "6a63d5f3-b81f-4d1d-9d3c-67fe5be9d221",
+        "d757c892-0bc8-4ca4-b4b4-13f83e385847",
+        "cbea5fea-6d71-4e93-8a15-9c959796ae6b"
     ],
     "tutorial": ""
 }

@@ -16,5 +16,6 @@ switch(argument0)
 		NewTextBox("Sure, do you have #2Slime#0?");
 		NewTextBoxChoice("Sell Slime?", 2, ["4:Yes!","0:No"]);
 		break;
+	case 7: event_user(2);
 	default: break;
 }

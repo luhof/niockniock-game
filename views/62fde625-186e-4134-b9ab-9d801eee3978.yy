@@ -20,7 +20,10 @@
         "22cc655d-2389-4e8e-a6dc-6604d9548016",
         "9c3a04c4-1aca-41e5-8d44-a177408affe4",
         "78f7a4e4-b2a6-42c2-bf99-711b2cbb5f72",
-        "0ee0431a-1385-4cf8-9d7d-0197d016821b"
+        "0ee0431a-1385-4cf8-9d7d-0197d016821b",
+        "65e58901-34c3-4dc8-90b2-3023c17efb21",
+        "fdf49a62-1852-4134-8729-6a58b6d96d62",
+        "119991ed-2ea6-48d0-89b8-c7df773f5567"
     ],
     "filterType": "GMSprite",
     "folderName": "Entities",

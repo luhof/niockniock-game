@@ -5,8 +5,7 @@ if(global.inventory[| proposedItem] == wantedItem){
 	NewTextBox("You hit the #2Monster#0!", 1);
 	NewTextBox("You win!", 1);
 	NewTextBox("You earn #24#0XP!", 1);
-	NewTextBox("You looted #2Slime#0!", 1);
-	NewTextBoxCallback("", 1, NotifyItemGiven, [ITEMS.SLIME]);
+	NewTextBoxCallback("You looted #2Slime#0!", 1, NotifyItemGiven, [ITEMS.SLIME, true]);
 	
 	happy = true;
 }

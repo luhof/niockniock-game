@@ -1,8 +1,8 @@
 /// @description onItemGiven
 
 if(global.inventory[| proposedItem] == wantedItem){
-	NewTextBoxCallback("1 coin please!", 1, RemoveInventoryItem, [proposedItem]);
-	NewTextBoxCallback("Thank you, enjoy your movie!", 1, NotifyItemGiven, [ITEMS.POPCORN, true]);
+	NewTextBoxCallback("1 coin please!", 0, RemoveInventoryItem, [proposedItem]);
+	NewTextBoxCallback("Thank you, enjoy your movie!", 0, NotifyItemGiven, [ITEMS.POPCORN]);
 	//NewTextBoxCallback("Thanks, slime!", 1, destroy);
 	
 	happy = true;

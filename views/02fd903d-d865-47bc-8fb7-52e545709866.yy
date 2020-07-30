@@ -7,7 +7,8 @@
         "edbae591-dc90-4350-b312-2be29d297e77",
         "e2b28438-7431-4ec2-ace5-2cf5bae78b29",
         "6827237a-f840-4dab-bc4a-3f98e94448fd",
-        "ce40ad0d-e550-4367-9ee0-f8f58509de78"
+        "ce40ad0d-e550-4367-9ee0-f8f58509de78",
+        "53adad6f-f8d7-47eb-9f04-22716a6366ff"
     ],
     "filterType": "GMSprite",
     "folderName": "Pickups",
