@@ -5,9 +5,12 @@ keyUp = keyboard_check_pressed(vk_up);
 keyDown = keyboard_check_pressed(vk_down);
 responseSelected += (keyDown - keyUp);
 
-if(keyUp || keyDown){
-	audio_play_sound(sndMenuMove, 10, false);	
+if(responses[0] != -1){
+	if(keyUp || keyDown){
+		audio_play_sound(sndMenuMove, 10, false);	
+	}
 }
+
 
 var _max = array_length_1d(responses)-1;
 var _min = 0;

@@ -55,20 +55,20 @@ AddDBItem(ITEMS.RUPEE, "Rupee", "1 green rupee is worth 1 rupee", sRupee);
 AddDBItem(ITEMS.SLIME, "Slime", "The most generic weak monster ever", sSlime);
 AddDBItem(ITEMS.SUNGLASSES, "Sunglasses", "Makes you a cool guy", sSunglasses);
 AddDBItem(ITEMS.SWORD, "Sword", "Pointy and dangerous", sSword);
-AddDBItem(ITEMS.TOYRING, "Toy ring", "", sToyRing);
+AddDBItem(ITEMS.TOYRING, "Toy ring", "Shaped like a pacifier.", sToyRing);
 AddDBItem(ITEMS.YOU, "You", "It's you!", sYou);
 AddDBItem(ITEMS.KEY, "Key", "A white key", sKey);
 AddDBItem(ITEMS.MAP, "Map", "Anti Lost Device", sMap);
-AddDBItem(ITEMS.YOUDEAD, "Your dead corpse", "You shared fun memories with this trinket", sYou);
+AddDBItem(ITEMS.YOUDEAD, "Your dead corpse", "Fun memories, huh?", sYouDead);
 AddDBItem(ITEMS.CORNCORPSE, "Corn Dude corpse", "CORN DUUUDE", sCornCorpse);
 AddDBItem(ITEMS.SATANSLOT, "SATANSLOT", "oops", sEmptySatanSlot);
 
 
 //debug : add some elements to inventory
 ds_list_add(global.inventory, ITEMS.YOU);
-ds_list_add(global.inventory, ITEMS.DEADBABY);
+/*ds_list_add(global.inventory, ITEMS.DEADBABY);
 ds_list_add(global.inventory, ITEMS.CORNCORPSE);
-ds_list_add(global.inventory, ITEMS.GUITAR);
+ds_list_add(global.inventory, ITEMS.GUITAR);*/
 /*ds_list_add(global.inventory, ITEMS.BATWING);
 ds_list_add(global.inventory, ITEMS.COIN);
 ds_list_add(global.inventory, ITEMS.POPCORN);

@@ -1,0 +1,2 @@
+/// @description ?
+timeoutToNextRoom = 250;

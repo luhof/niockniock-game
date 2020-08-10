@@ -9,6 +9,9 @@ if(global.inventory[| proposedItem] == wantedItem){
 }
 else{
 	switch(global.inventory[| proposedItem]){
+		case ITEMS.POPCORN:
+			NewTextBox("You already have pop-corn, lucky you.");
+			NewTextBox("You can buy more if you want, but with #2coins#0.");
 		default:
 			NewTextBox("You can only pay pop-corn with #2coins#0.");
 			break;

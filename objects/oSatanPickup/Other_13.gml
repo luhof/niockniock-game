@@ -1,6 +1,11 @@
 /// @description go to Satan
-shallFadeToBlack = true;
-nextRoomDelay = 1;
+nextRoomTriggered = true;
+nextRoomDelay = 3;
+
+with(oCamera){
+	shallFadeToBlack = true;
+}
+
 with(oPlayer){
 	lastState = state;
 	state = PlayerStateLocked;	

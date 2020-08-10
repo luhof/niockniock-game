@@ -10,3 +10,6 @@ wantedItem = ITEMS.YOU;
 hasSpoken = false;
 
 
+nextRoomDelay = 300;
+nextRoomTriggered = false;
+

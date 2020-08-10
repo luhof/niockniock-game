@@ -18,4 +18,6 @@ z = 0;
 spriteRun = sPlayerRun;
 spriteIdle = sPlayer;
 
+isGhost = false;
+
 localFrame = 0;

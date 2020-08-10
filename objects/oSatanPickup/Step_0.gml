@@ -1,11 +1,21 @@
 /// @description ?
-if(shallFadeToBlack){
-	blackOpacity += 0.01;
-	if(blackOpacity >= 1){
-		//delay before going to next room
+if(nextRoomTriggered){
+	
 		nextRoomDelay -= 0.01;
 		if(nextRoomDelay < 0){
-			room_goto(rSatanLair);	
+			with(oPlayer){	
+				x = 150;
+				y = 150;
+				lastState = state;
+				
+				state = PlayerStateFree;
+				stateJustChanged = true;
+				/*spriteRun = sPlayerGhost;
+				spriteIdle = sPlayerGhost;
+				isGhost = true;*/
+				room_goto(rSatanLair);
+				
+			}
 		}
-	}
+	
 }

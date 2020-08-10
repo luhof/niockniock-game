@@ -35,10 +35,18 @@ else if(keyActivate && !stateJustChanged){
 	var _activateY = lengthdir_y(15, direction);
 	
 	// check for entity to activate
+
 	activate = instance_position(x+_activateX, y+_activateY, pEntity);
 	if(activate == noone){
 		//crappy collision
 		activate = instance_position(x+(_activateX*2), y+(_activateY*2), pEntity);
+		if(activate == noone){
+			activate = instance_position(x+_activateX, y+_activateY+15, pEntity);
+			if(activate == noone){
+				activate = instance_position(x+_activateX, y+_activateY-15, pEntity);
+			}
+		}
+		
 	}
 	//var activate = distance_to_object(pEntity);
 	if(activate == noone){

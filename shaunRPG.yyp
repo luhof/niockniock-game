@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "007960a8-6c94-4c80-bb52-d3d375c5f572",
+            "Value": {
+                "id": "c0116370-d1fe-4224-92fa-f546789444f3",
+                "resourcePath": "sprites\\sSatanCaveLimbo\\sSatanCaveLimbo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "011d07fa-a827-4198-8255-85bb7b106935",
             "Value": {
                 "id": "5bedf922-c850-44d3-ae16-4b6e08a44135",
@@ -135,6 +143,14 @@
             }
         },
         {
+            "Key": "08f94cf7-2460-48e7-bf2f-9872d1052b36",
+            "Value": {
+                "id": "03a85dd2-bfbd-4529-9d1b-0a77a301f65d",
+                "resourcePath": "sprites\\sPickupNiockDead\\sPickupNiockDead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "09ac64e3-7b24-4e8f-8643-445b09b4f7d5",
             "Value": {
                 "id": "523201b5-26cf-41ab-bd1d-e0af4f7a2db8",
@@ -175,6 +191,14 @@
             }
         },
         {
+            "Key": "0c7fc1d5-69a6-462e-8e8d-4d79e4f7ba50",
+            "Value": {
+                "id": "cd159c41-4f46-4705-8c88-ccdf040ee991",
+                "resourcePath": "sprites\\sCinematicMenu\\sCinematicMenu.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0c942229-8223-43f0-b7a5-e90acf008bed",
             "Value": {
                 "id": "22107f74-1a8d-4e93-b03b-9126be983518",
@@ -188,6 +212,14 @@
                 "id": "9cf8c036-0b3f-434d-8f1e-fdd19c6d2fdf",
                 "resourcePath": "sprites\\sRoomGirl\\sRoomGirl.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0e0e8278-6d7f-4a72-845b-8331f9d6927b",
+            "Value": {
+                "id": "ac10f653-c2ee-4e83-a246-4db5e2a988cd",
+                "resourcePath": "rooms\\rSwordPathLimbo\\rSwordPathLimbo.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -236,6 +268,14 @@
                 "id": "721919a0-1721-441d-94f7-9e2eca908283",
                 "resourcePath": "objects\\oWizardNPC\\oWizardNPC.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "152432b9-eca6-4577-a736-0da57541fdcd",
+            "Value": {
+                "id": "8d626145-2bef-4fd9-b947-9e8d3b243534",
+                "resourcePath": "rooms\\rSatanPathLimbo\\rSatanPathLimbo.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -359,6 +399,14 @@
             }
         },
         {
+            "Key": "234d271c-efc8-4d36-8b61-bf3437d0fbbe",
+            "Value": {
+                "id": "ebbfbcb6-97a5-418d-852e-2d85f34db99f",
+                "resourcePath": "rooms\\rHouseGirlLimbo\\rHouseGirlLimbo.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "2479a40d-0784-4a11-95d4-8d055809543c",
             "Value": {
                 "id": "353a5104-3ff6-4796-bac5-7c4fbfa2649d",
@@ -375,10 +423,34 @@
             }
         },
         {
+            "Key": "258edb72-2b21-48cc-bd6f-7cc60669ae8d",
+            "Value": {
+                "id": "91fc0040-3ca4-434a-8e48-149f9150e72b",
+                "resourcePath": "objects\\oCinematic2Niock\\oCinematic2Niock.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "25b86098-d7ca-46a7-8f63-19758b5705ec",
             "Value": {
                 "id": "cdaf3282-3fd6-4d7c-87bc-c3748478b02f",
                 "resourcePath": "sprites\\sDoor\\sDoor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "25bd4d1e-ca80-4a0c-b786-d3ed54b1f4cd",
+            "Value": {
+                "id": "b1fc92c3-67dc-442f-b5f1-d40f76ac987b",
+                "resourcePath": "objects\\oPlayerGhost\\oPlayerGhost.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "26c47bb4-ae89-4e33-ab7a-4d76b1330da8",
+            "Value": {
+                "id": "94168c7c-888a-41c7-b2c6-46a744399dac",
+                "resourcePath": "sprites\\sVillageLimbo\\sVillageLimbo.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -396,6 +468,14 @@
                 "id": "ceb52f7a-b0ca-4024-afd2-9340a4602cf4",
                 "resourcePath": "sprites\\sShadow\\sShadow.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2a8853f0-96e5-43e7-841f-455ea0fba4b0",
+            "Value": {
+                "id": "dda9a815-1a22-4b9d-8a34-608fbdfb31c7",
+                "resourcePath": "rooms\\rVillageLimbo\\rVillageLimbo.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -420,6 +500,14 @@
                 "id": "ba6cb378-7063-4f73-a043-024bdd766123",
                 "resourcePath": "rooms\\rFamilyHouse\\rFamilyHouse.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "2fb658a8-f691-4369-8308-3e714b8aee46",
+            "Value": {
+                "id": "cc8b9cde-bf8d-4abc-89fa-899addb436ec",
+                "resourcePath": "sprites\\sCinematicBackgroundHeart\\sCinematicBackgroundHeart.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -452,6 +540,14 @@
                 "id": "62983fb5-60d4-4974-acb3-0c9c1ef490bd",
                 "resourcePath": "objects\\oFence\\oFence.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "361f98ff-fcb9-49dd-8785-b357b32706ac",
+            "Value": {
+                "id": "8eff5b77-ff4f-433b-b527-d1141f82d8f9",
+                "resourcePath": "rooms\\rCinematicTheEnd\\rCinematicTheEnd.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -492,6 +588,22 @@
                 "id": "50c46332-5b2d-4575-8dda-dca21f9d9e71",
                 "resourcePath": "objects\\oGame\\oGame.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3d844b6f-d949-49ba-9e12-3423fd4a5beb",
+            "Value": {
+                "id": "46947e6d-b040-4170-af1d-a049e4a1aa13",
+                "resourcePath": "objects\\oCinematicTimeout\\oCinematicTimeout.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3de65327-4bb7-4fcd-a3be-3f953d495252",
+            "Value": {
+                "id": "c9ae51a9-36f2-4249-9611-7badf5206d5a",
+                "resourcePath": "sprites\\sCinematicIntro\\sCinematicIntro.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -599,6 +711,14 @@
             }
         },
         {
+            "Key": "4777cc9a-f506-45a9-9fa9-f5688a4b1f5c",
+            "Value": {
+                "id": "454c2c1e-953f-4735-ba03-285a3ede9652",
+                "resourcePath": "sprites\\sRoomGirlLimbo\\sRoomGirlLimbo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "485152fa-e4b1-4456-b9c4-783321b5e302",
             "Value": {
                 "id": "5d108842-4fc2-4551-ac95-1b31dd453151",
@@ -639,18 +759,18 @@
             }
         },
         {
-            "Key": "4ada4c2f-31a4-488b-9da6-a82e66589d28",
+            "Key": "4a94f2de-1937-4c03-a1a6-e15240f0344e",
             "Value": {
-                "id": "742a75c2-9638-47dc-96d9-5c5b23d058fa",
-                "resourcePath": "sprites\\sWizard\\sWizard.yy",
+                "id": "cc39a5e1-4192-4c54-981b-f2df54c9faaa",
+                "resourcePath": "sprites\\sCinematicName\\sCinematicName.yy",
                 "resourceType": "GMSprite"
             }
         },
         {
-            "Key": "4b09b911-6175-4d20-aa60-8f4237f67281",
+            "Key": "4ada4c2f-31a4-488b-9da6-a82e66589d28",
             "Value": {
-                "id": "1d7a4a80-5dfa-4c82-be44-f90cc23407f3",
-                "resourcePath": "sprites\\sTiles\\sTiles.yy",
+                "id": "742a75c2-9638-47dc-96d9-5c5b23d058fa",
+                "resourcePath": "sprites\\sWizard\\sWizard.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -727,6 +847,14 @@
             }
         },
         {
+            "Key": "505aeb11-ebba-472b-b1dc-1ef95b8b839a",
+            "Value": {
+                "id": "d60b4533-f13b-4816-9c1f-3f2c34686989",
+                "resourcePath": "rooms\\rHouseNiockNiockLimbo\\rHouseNiockNiockLimbo.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "50d05894-4a2c-45eb-be1a-3ab49d130e25",
             "Value": {
                 "id": "be8d4eb2-3499-4e14-a7e7-77877148ba01",
@@ -751,10 +879,42 @@
             }
         },
         {
+            "Key": "52b42a91-f516-4821-870d-77cad83e72a9",
+            "Value": {
+                "id": "150e973e-a2b3-4eb6-a25f-8ee6e4939a4a",
+                "resourcePath": "objects\\oCinematic3Couple\\oCinematic3Couple.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5369ba5e-12cb-4e1b-99cf-69485871a885",
+            "Value": {
+                "id": "3b8809c7-deac-40e9-a3b8-6915c5e2493f",
+                "resourcePath": "objects\\oCinematic1Girl\\oCinematic1Girl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "53adad6f-f8d7-47eb-9f04-22716a6366ff",
             "Value": {
                 "id": "4df960a4-32ce-4d5a-bfc7-97836363782d",
                 "resourcePath": "sprites\\sGuitarPickup\\sGuitarPickup.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "542fa23f-c936-40d1-8ada-d4730c4d2e36",
+            "Value": {
+                "id": "c1b41cef-db03-42cf-a62b-4b49213a4d18",
+                "resourcePath": "objects\\oCinematicQuit\\oCinematicQuit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "545e6676-eb95-436d-b928-aa577fe5cbfd",
+            "Value": {
+                "id": "778f0e9c-59c7-42d8-bf16-79e127436885",
+                "resourcePath": "sprites\\sPlayerGhost\\sPlayerGhost.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -879,6 +1039,14 @@
             }
         },
         {
+            "Key": "63b68cb8-d85f-45a5-96e5-529268b7e047",
+            "Value": {
+                "id": "4257808e-3ba1-41e8-adf8-686afcd85176",
+                "resourcePath": "rooms\\rCinematic2\\rCinematic2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "63cd1358-0e2f-4657-b57c-b64d3e2b852e",
             "Value": {
                 "id": "b4dcc929-1b8a-4fdb-aa05-cf02d07686c6",
@@ -999,6 +1167,14 @@
             }
         },
         {
+            "Key": "6b165762-f6a0-4f7b-b0e8-27990d28ca3e",
+            "Value": {
+                "id": "81ea7be3-f40f-4f1f-8788-f459359c40a6",
+                "resourcePath": "objects\\oPickupLovePotion\\oPickupLovePotion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6bcd4b3f-61ec-4ced-b967-cf7181ab376c",
             "Value": {
                 "id": "cf21c0c3-e3b4-40fa-9e83-ee6ec296afe1",
@@ -1071,6 +1247,14 @@
             }
         },
         {
+            "Key": "7591fb68-cfb5-4933-918e-880aea07badf",
+            "Value": {
+                "id": "64f66227-84ee-4d51-85ba-250e768353a7",
+                "resourcePath": "rooms\\rSatanInsideLimbo\\rSatanInsideLimbo.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "76fde65e-eade-45a6-a686-711f2fa1ac0a",
             "Value": {
                 "id": "368530ac-f307-423d-8fc0-8ba745f22748",
@@ -1103,6 +1287,14 @@
             }
         },
         {
+            "Key": "797fd49e-c3ff-468a-9149-d294382b5c89",
+            "Value": {
+                "id": "62c91075-1c52-4fdc-a662-c82193b300f4",
+                "resourcePath": "objects\\oCinematicNext\\oCinematicNext.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7a97818f-941b-4ac3-811b-f6a44f03df12",
             "Value": {
                 "id": "c0578757-4b6e-4a76-a665-7ca313473ec2",
@@ -1123,6 +1315,14 @@
             "Value": {
                 "id": "13393a01-f372-4d80-9662-9f2fcd00cdef",
                 "resourcePath": "sprites\\sGotItem\\sGotItem.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7c2bfcad-77d2-4ef3-9f69-78a37e453bcb",
+            "Value": {
+                "id": "934da1b9-44e9-408c-8973-526cd994d4f5",
+                "resourcePath": "sprites\\sCinematicCouple\\sCinematicCouple.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1151,6 +1351,14 @@
             }
         },
         {
+            "Key": "7e7622e0-6283-4c25-a19a-68f81031e947",
+            "Value": {
+                "id": "f5b2ebb0-6e0d-4664-9c3d-5c255af8e2b5",
+                "resourcePath": "objects\\oGirlNPCLimbo\\oGirlNPCLimbo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7f3eb116-0791-481a-a063-ea987d7c69a4",
             "Value": {
                 "id": "56eca63e-50cc-4ba4-a4c7-e2faf2429e3e",
@@ -1164,6 +1372,14 @@
                 "id": "6d954cd5-8797-4e97-ba98-a00f7a31a94b",
                 "resourcePath": "rooms\\rHouseGirl\\rHouseGirl.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "837e45a5-800f-4793-b71b-eb24ce3c51b8",
+            "Value": {
+                "id": "f18ceb87-cb9b-409a-893e-e253d5aade5c",
+                "resourcePath": "sprites\\sPickupLovePotion\\sPickupLovePotion.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1271,6 +1487,14 @@
             }
         },
         {
+            "Key": "9837c04c-e8ff-4b69-abd3-a64c25807325",
+            "Value": {
+                "id": "30f5eaf9-6a15-43ad-9148-d5e7b0f658b2",
+                "resourcePath": "sprites\\sCinematicGirlInLoveBack\\sCinematicGirlInLoveBack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9953489a-09d0-4dea-b3cf-47be11ae8ad2",
             "Value": {
                 "id": "f540ec37-885e-44b3-a13e-1b931c17780e",
@@ -1295,10 +1519,42 @@
             }
         },
         {
+            "Key": "9b4ff40f-cece-4a6e-ad6e-6c11d0c368fc",
+            "Value": {
+                "id": "d9630609-2bdb-4f40-952b-c9d582680b13",
+                "resourcePath": "sprites\\sCinematicGirlInLove\\sCinematicGirlInLove.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9b8b33be-a077-42ae-9229-6bc949b9b4ab",
+            "Value": {
+                "id": "9648ef76-af20-4bb2-811e-ddd0542a0c4e",
+                "resourcePath": "views\\9b8b33be-a077-42ae-9229-6bc949b9b4ab.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9ba82362-19f9-4c4c-82c6-76887dd207b1",
             "Value": {
                 "id": "58c0d8c0-76c2-43df-9a13-9bb0d7c15fc9",
                 "resourcePath": "views\\9ba82362-19f9-4c4c-82c6-76887dd207b1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9bb49694-1e2a-4f67-8467-c23ba6041a3e",
+            "Value": {
+                "id": "9e8d5239-a18e-44a9-a4b2-aee62f66c504",
+                "resourcePath": "sprites\\sCinematicEnd\\sCinematicEnd.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9bee8fde-8dfd-421d-91ea-f7d57c57b9e0",
+            "Value": {
+                "id": "98a5cad5-dba7-40b0-a383-fc40a8ac5050",
+                "resourcePath": "views\\9bee8fde-8dfd-421d-91ea-f7d57c57b9e0.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1375,6 +1631,14 @@
             }
         },
         {
+            "Key": "a4c606b0-d1e1-42ae-85fd-4813b445a8eb",
+            "Value": {
+                "id": "7f7af705-0f7e-4c87-8b6f-6fad8fb596c5",
+                "resourcePath": "views\\a4c606b0-d1e1-42ae-85fd-4813b445a8eb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a5aeca45-3dd6-4f69-be0c-e30078086a60",
             "Value": {
                 "id": "fb829a60-9ded-4997-be26-de84b6385e80",
@@ -1436,6 +1700,14 @@
                 "id": "23955050-af86-44e7-83b5-73dd15a1c826",
                 "resourcePath": "rooms\\rHouseMom\\rHouseMom.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ab937c2f-2f5d-46e0-8cf2-27cb018e6390",
+            "Value": {
+                "id": "4f1970f4-c586-46f4-88a2-56458417073b",
+                "resourcePath": "objects\\oCinematic1Niock\\oCinematic1Niock.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1507,6 +1779,14 @@
             "Value": {
                 "id": "fc0c6ae1-11aa-4530-abdd-53e0d6fa16b9",
                 "resourcePath": "sprites\\sItemDesc\\sItemDesc.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b3e4db19-1e81-4410-a36a-c0a5c2234ce2",
+            "Value": {
+                "id": "778776d6-6278-412c-9f4f-a318a694de68",
+                "resourcePath": "sprites\\sCinematicDead\\sCinematicDead.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1591,6 +1871,14 @@
             }
         },
         {
+            "Key": "caee1c87-6c7e-412e-9f55-7a253bbeb4c7",
+            "Value": {
+                "id": "daf03641-fe6e-4b45-8c8e-1bdc1bdb271f",
+                "resourcePath": "rooms\\rCinematic21\\rCinematic21.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "cb01f6d3-c179-4056-88b9-b7f166e3a918",
             "Value": {
                 "id": "81e1afd7-92ed-4f5a-8d65-cde8470dbd59",
@@ -1604,6 +1892,22 @@
                 "id": "791dca5e-909a-4ca4-9b10-c3ba3232fa69",
                 "resourcePath": "scripts\\LaunchUserEvent3\\LaunchUserEvent3.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "cc649222-894c-41e4-96ae-bf323876f4c0",
+            "Value": {
+                "id": "9d32a465-112f-4d4f-9add-e4ae86c26cb5",
+                "resourcePath": "sprites\\sCinematicDeadBack\\sCinematicDeadBack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cc8d68cf-dc1c-461a-a882-aa773ad7ef33",
+            "Value": {
+                "id": "e24197ee-20c4-4893-99c3-da6bdcff3c72",
+                "resourcePath": "rooms\\rMenu\\rMenu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1623,6 +1927,14 @@
             }
         },
         {
+            "Key": "cde14259-f332-4887-ba07-52be521ccbd5",
+            "Value": {
+                "id": "d739f012-f0fb-447c-a9a8-c74d13d24794",
+                "resourcePath": "sprites\\sCinematicRoomBg\\sCinematicRoomBg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ce40ad0d-e550-4367-9ee0-f8f58509de78",
             "Value": {
                 "id": "f29b0b64-c8a5-4d25-b95d-1820270de91f",
@@ -1636,6 +1948,14 @@
                 "id": "64b12b47-b7c2-41c3-a44e-e14fd6b49ca6",
                 "resourcePath": "views\\cf63cebf-f096-43db-9c08-2508c9fc6b26.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cf6ba6bd-1a72-44fc-8079-8c06cc81d993",
+            "Value": {
+                "id": "b3018c84-b900-444f-9401-c8c7d7f67207",
+                "resourcePath": "sprites\\sSwordPathLimbo\\sSwordPathLimbo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1663,18 +1983,18 @@
             }
         },
         {
-            "Key": "d33224a4-0c3b-4b71-8d36-84c7436da83e",
-            "Value": {
-                "id": "6dab5c9b-3733-4dc6-aa41-cfa1c18985e5",
-                "resourcePath": "sprites\\sPlant\\sPlant.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "d60a1647-08ea-446c-a825-86ae64852465",
             "Value": {
                 "id": "6521ffaa-e297-41b8-9b31-5a0cc9c35a56",
                 "resourcePath": "sprites\\sCol\\sCol.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d62e698f-c70f-4914-81e0-fcdda629e44e",
+            "Value": {
+                "id": "abde71cc-d88a-47e8-89c4-918cda7a15de",
+                "resourcePath": "sprites\\sRoomNiockLimbo\\sRoomNiockLimbo.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1684,6 +2004,14 @@
                 "id": "7aafa7f6-1c98-4096-bb83-1d82db396a4c",
                 "resourcePath": "sounds\\sndGotItem\\sndGotItem.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "d6dcf23a-d4fb-4dcc-bb56-fb85a9e851f6",
+            "Value": {
+                "id": "21b640e4-b698-4e49-b93a-11857632f5bd",
+                "resourcePath": "rooms\\rCinematicIntro\\rCinematicIntro.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1703,11 +2031,27 @@
             }
         },
         {
+            "Key": "d7cd081e-9a08-41b9-9fac-fe901177a84b",
+            "Value": {
+                "id": "f9a5bcfa-ba40-47b2-81a1-9b11815aa2d5",
+                "resourcePath": "sprites\\sSatanInsideLimbo\\sSatanInsideLimbo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d9078630-3f5b-4945-98e1-64628c983360",
             "Value": {
                 "id": "ee87fa95-86cc-4a4d-9288-57fb534aae67",
                 "resourcePath": "objects\\pEntity\\pEntity.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d99242e7-222c-437d-af13-5d5fa735f537",
+            "Value": {
+                "id": "fb855e25-5131-4bd9-be1f-fbb271dc709b",
+                "resourcePath": "sprites\\sCloudsLimbo\\sCloudsLimbo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1759,6 +2103,14 @@
             }
         },
         {
+            "Key": "dfb291f0-dd54-45a5-b8f1-b5204ede2383",
+            "Value": {
+                "id": "521ba181-e71d-4b93-8e06-f978447fdb82",
+                "resourcePath": "rooms\\rCinematicCredits\\rCinematicCredits.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "e07fa4a0-fc84-4578-af53-e1a48238d2a6",
             "Value": {
                 "id": "e5d7bf55-7873-4964-9c98-8b8f4860b1e5",
@@ -1807,6 +2159,14 @@
             }
         },
         {
+            "Key": "e3e4cad1-59e6-427b-b02d-a7ea1e857517",
+            "Value": {
+                "id": "3972f325-ae5d-4481-8543-a64c4db88f23",
+                "resourcePath": "objects\\oCinematic2Girl\\oCinematic2Girl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e42a2283-eb3f-4c49-9635-fb636b318309",
             "Value": {
                 "id": "da853efe-5083-4903-b0e9-1548a4f0f754",
@@ -1819,6 +2179,14 @@
             "Value": {
                 "id": "de441eda-96f5-4521-a08f-af96044a2f75",
                 "resourcePath": "objects\\oTextQueued\\oTextQueued.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e7141a50-1c02-4325-82be-4afa2681cebd",
+            "Value": {
+                "id": "b9ccb99c-6f6f-470a-b1ff-2534af707cf6",
+                "resourcePath": "objects\\oPickupNiockDead\\oPickupNiockDead.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1948,6 +2316,14 @@
                 "id": "13a55e70-c307-4444-9c38-e3ad4d3fb583",
                 "resourcePath": "objects\\oPlantB\\oPlantB.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f2f7a86a-607f-482b-a626-b3f86d1f7c24",
+            "Value": {
+                "id": "a15683a1-b89c-401e-bf75-3d2d51249ead",
+                "resourcePath": "rooms\\rCinematic1\\rCinematic1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
