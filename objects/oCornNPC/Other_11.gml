@@ -5,7 +5,6 @@ if(global.inventory[| proposedItem] == wantedItem){
 	NewTextBox("...");
 	NewTextBox("...");
 	NewTextBox("So that's the Pop-Corn everybody's talking about...");
-	NewTextBox("It's more disturbing that I thought...");
 	NewTextBox("Flesh of my siblings. Inside-out. After being burned alive.");
 	NewTextBox("That's what people of the city do, huh...");
 	NewTextBox("...");

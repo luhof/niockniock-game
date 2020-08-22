@@ -1,2 +1,2 @@
 /// @description ?
-cinematicTimeout = 300;
+cinematicTimeout = 700;

@@ -14,7 +14,8 @@
         "4a94f2de-1937-4c03-a1a6-e15240f0344e",
         "9bb49694-1e2a-4f67-8467-c23ba6041a3e",
         "3de65327-4bb7-4fcd-a3be-3f953d495252",
-        "0c7fc1d5-69a6-462e-8e8d-4d79e4f7ba50"
+        "0c7fc1d5-69a6-462e-8e8d-4d79e4f7ba50",
+        "9d47c2bd-d419-4867-9f8e-808cc607bad9"
     ],
     "filterType": "GMSprite",
     "folderName": "cinematic",

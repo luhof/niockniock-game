@@ -13,8 +13,8 @@ else{
 			NewTextBox("If I give one coin to my girlfriend for her birthday...");
 			NewTextBox("I'm not romantic enough to not get dumped for that.");
 			break;
-		case ITEMS.BEER:
-			NewTextBox("I could use some cheap beer, but no thanks.");
+		case ITEMS.NUDEMAG:
+			NewTextBox("Good idea, but no thanks.");
 			break;
 		default:
 			NewTextBox("What is that?");	

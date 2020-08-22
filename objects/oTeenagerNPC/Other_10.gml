@@ -1,8 +1,9 @@
 /// @description onInteract
 
 if(happy){
-	NewTextBox("Huuuh leave me alone now.");	
+	NewTextBox("Huuuh leave me alone now.");		
 	NewTextBox("I have #2homework#0 to do...");
+	NewTextBox("have you borrowed my #2guitar#0 yet?");
 }
 else{
 	NewTextBox("Huuuuh");

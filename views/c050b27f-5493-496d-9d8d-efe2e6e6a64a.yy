@@ -8,7 +8,8 @@
         "085064ba-51f4-45e8-a552-944febb5dde2",
         "5e396aa0-a190-4c99-b93a-3284b6f31a15",
         "aa6e9172-cefc-458a-8cfe-b1cfa5dbe57e",
-        "6a3b019a-16a1-4eb2-a2ab-112d1741edde"
+        "6a3b019a-16a1-4eb2-a2ab-112d1741edde",
+        "f4a03075-313d-4b09-90ba-6f615b2242ce"
     ],
     "filterType": "GMObject",
     "folderName": "Managers",

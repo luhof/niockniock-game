@@ -1,5 +1,6 @@
 /// @description ?
-cinematicTimeout = 300;
-headFallTimeout = 200;
+cinematicTimeout = 700;
+headFallTimeout = 500;
 
+hasHeadFallen = false;
 image_speed= 0;

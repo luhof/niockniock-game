@@ -3,6 +3,8 @@
 nextRoomTriggered = true;
 nextRoomDelay = 2;
 
+audio_play_sound(sndEarthQuake, 10, false);
+
 with(oCamera){
 	shallFadeToBlack = true;
 }

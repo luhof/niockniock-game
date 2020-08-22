@@ -66,9 +66,9 @@ AddDBItem(ITEMS.SATANSLOT, "SATANSLOT", "oops", sEmptySatanSlot);
 
 //debug : add some elements to inventory
 ds_list_add(global.inventory, ITEMS.YOU);
-/*ds_list_add(global.inventory, ITEMS.DEADBABY);
+ds_list_add(global.inventory, ITEMS.DEADBABY);
 ds_list_add(global.inventory, ITEMS.CORNCORPSE);
-ds_list_add(global.inventory, ITEMS.GUITAR);*/
+ds_list_add(global.inventory, ITEMS.GUITAR);
 /*ds_list_add(global.inventory, ITEMS.BATWING);
 ds_list_add(global.inventory, ITEMS.COIN);
 ds_list_add(global.inventory, ITEMS.POPCORN);

@@ -1,6 +1,6 @@
 /// @description ?
-timeoutToNextRoom -= 1;
+timeToNextRoom -= 1;
 
-if(timeoutToNextRoom <= 0){
+if(timeToNextRoom <= 0){
 	room_goto_next();	
 }

@@ -3,7 +3,7 @@
 if(global.inventory[| proposedItem] == wantedItem){
 	NewTextBoxCallback("Thank you...", 0, RemoveInventoryItem, [proposedItem]);
 	NewTextBoxCallback("#2Satan#0 thanks you with a cold laugh.", 1, ScreenShake, [15, 120]);
-	NewTextBoxCallback("It sounds like '#1MUHAHAHAHA#0'.'", 1, LaunchUserEvent3);
+	NewTextBoxCallback("It sounds like '#1MUHAHAHAHA#0'.", 1, LaunchUserEvent3);
 	
 	happy = true;
 }

@@ -1,0 +1,2 @@
+/// @description ?
+currentMusic = undefined;

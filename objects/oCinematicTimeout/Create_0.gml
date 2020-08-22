@@ -1,2 +1,1 @@
 /// @description ?
-timeoutToNextRoom = 250;
