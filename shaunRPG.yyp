@@ -47,14 +47,6 @@
             }
         },
         {
-            "Key": "011d07fa-a827-4198-8255-85bb7b106935",
-            "Value": {
-                "id": "5bedf922-c850-44d3-ae16-4b6e08a44135",
-                "resourcePath": "datafiles_yy\\blocks-sans-serif.ttf.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "011ef30c-ac45-4723-9f7c-ce90af7e3b1e",
             "Value": {
                 "id": "b85e2c91-4f18-4cdc-a0c8-3ffecb7c282f",
@@ -92,22 +84,6 @@
                 "id": "329fc9e5-9802-44db-b2d1-d8b1eaed23e1",
                 "resourcePath": "objects\\oSatan\\oSatan.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "04180296-97fb-4b07-b78c-c2e3fb33f138",
-            "Value": {
-                "id": "e6427530-3df6-4ee8-9f9d-e04aeb1708ec",
-                "resourcePath": "datafiles_yy\\blocks-16bit.ttf.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "04ba11bf-9bc9-44e7-9e32-cb3846e8d69a",
-            "Value": {
-                "id": "8c07f6d5-1272-413d-a68e-e3926e509281",
-                "resourcePath": "datafiles_yy\\blocks-serif.ttf.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -852,14 +828,6 @@
                 "id": "0f697676-3617-48ce-8b79-b9ac375faa29",
                 "resourcePath": "sprites\\sRoomForeground\\sRoomForeground.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "4e174f8a-e6e3-4180-ad56-f004e37cebee",
-            "Value": {
-                "id": "2d7da86a-e9ee-4e82-9f7d-0a19dd48af9a",
-                "resourcePath": "datafiles_yy\\blocks-3x3-monospaced.ttf.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1679,14 +1647,6 @@
             }
         },
         {
-            "Key": "9ce85b6e-db1e-4566-b301-fb29d6f4e829",
-            "Value": {
-                "id": "29fad4bc-e8b0-4726-9f49-3718aa28e4c1",
-                "resourcePath": "datafiles_yy\\blocks-extended.ttf.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "9d47c2bd-d419-4867-9f8e-808cc607bad9",
             "Value": {
                 "id": "8c9f9230-6aa7-41ea-8019-6c988ce8ac42",
@@ -1764,6 +1724,14 @@
                 "id": "fb829a60-9ded-4997-be26-de84b6385e80",
                 "resourcePath": "scripts\\RemoveInventoryItem\\RemoveInventoryItem.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a5ce3811-9828-44a9-a7cd-ae6d50b9fb3d",
+            "Value": {
+                "id": "6a11d199-18e7-4a21-a188-ed9d72da10be",
+                "resourcePath": "sounds\\Realistic_Earthquake_Sound_Effect__High_Quality_\\Realistic_Earthquake_Sound_Effect__High_Quality_.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1871,6 +1839,14 @@
             }
         },
         {
+            "Key": "af2d5975-1448-45d7-80bc-14dc183910fb",
+            "Value": {
+                "id": "d8288c0b-2d9f-4d6b-8fea-dbfc08da9086",
+                "resourcePath": "scripts\\DestroySelf\\DestroySelf.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "af954eca-75f8-4bdd-acd2-3c2488bc52a0",
             "Value": {
                 "id": "967b4b72-6bda-4d70-985c-261a97ecc2c2",
@@ -1972,6 +1948,14 @@
                 "id": "36b4c795-3e13-4611-b1be-3743bfa1017b",
                 "resourcePath": "objects\\oLover\\oLover.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c5fc55ee-ce61-46bc-b981-ad57a58f6e57",
+            "Value": {
+                "id": "cbeaa137-40c0-4771-b2c6-f0617d01ab94",
+                "resourcePath": "rooms\\rCinematicIntroWait\\rCinematicIntroWait.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -2607,6 +2591,7 @@
         "9b3c1764-0384-43b5-b8b9-0f98a1c85a94",
         "d279f3c3-e5da-43df-9088-d2e5c2c644b0",
         "6bcd4b3f-61ec-4ced-b967-cf7181ab376c",
+        "af2d5975-1448-45d7-80bc-14dc183910fb",
         "50d05894-4a2c-45eb-be1a-3ab49d130e25",
         "f53d5fd2-c848-42af-8c63-11235a9e99a9",
         "a826cf11-b0f6-453f-851c-ea0f06f49fd5",

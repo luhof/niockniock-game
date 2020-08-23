@@ -7,8 +7,8 @@ switch(argument0)
 	case 3: NewTextBox("Thanks for your responses!", 0); break;
 	case 4: OpenInventoryNPC(); break;
 	case 5:
-		NewTextBox("Let me guess... You want a #1Love Potion#0?");
-		NewTextBox("The #1Potion#0 that makes the one who drinks it fall in love with you?");
+		NewTextBox("Let me guess... You want a #2Love Potion#0?");
+		NewTextBox("The #2Potion#0 that makes the one who drinks it fall in love with you?");
 		NewTextBox("I'm sorry, I don't have it.");
 		NewTextBox("I heard there is one in the #2cave#0... #2Far east#0.");
 	break;

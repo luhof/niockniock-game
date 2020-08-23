@@ -1,9 +1,8 @@
 /// @description onItemGiven
 
 if(global.inventory[| proposedItem] == wantedItem){
-	NewTextBoxCallback("You open the door with the #2key#0.", 1, RemoveInventoryItem, proposedItem);
-	instance_destroy();
-	//NewTextBoxCallback("Thanks, slime!", 1, destroy);
+	NewTextBoxCallback("You open the door with the #2key#0.", 1, RemoveInventoryItem, [proposedItem]);
+	NewTextBoxCallback("It's open!", 1, DestroySelf, false);
 	
 	happy = true;
 }

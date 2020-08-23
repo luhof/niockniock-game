@@ -19,6 +19,10 @@ draw_sprite_ext(sGotItem, 0, RESOLUTION_W/2, RESOLUTION_H/2 + currY, image_xscal
 //draw object
 
 var objSprite = global.items[# currObject, ITEM.SPRITE];
+var hasPrefix = global.items[# currObject, ITEM.HASPREFIX];
+
+var youGotText = hasPrefix ? "You got\n" : "You got a\n";
+
 //shadow
 draw_sprite_ext(objSprite, 0, 64+2, RESOLUTION_H/2 + currY,
 Wave(2.0, 2.5, 3.0, 0.0),
@@ -44,9 +48,9 @@ draw_set_font(fTextBig);
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);
 draw_set_color(c_black);
-draw_text_transformed(RESOLUTION_W/2+32, RESOLUTION_H/2+1 + currY, "You got a\n" + objName + "!", image_xscale, image_yscale, currShadowRotate);
+draw_text_transformed(RESOLUTION_W/2+32, RESOLUTION_H/2+1 + currY, youGotText + objName + "!", image_xscale, image_yscale, currShadowRotate);
 draw_set_color($d77bba);
-draw_text_transformed(RESOLUTION_W/2+32, RESOLUTION_H/2 + currY, "You got a\n" + objName + "!", image_xscale, image_yscale, currShadowRotate);
+draw_text_transformed(RESOLUTION_W/2+32, RESOLUTION_H/2 + currY, youGotText + objName + "!", image_xscale, image_yscale, currShadowRotate);
 
 draw_set_font(fText);
 draw_set_color(c_black);

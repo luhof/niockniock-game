@@ -26,6 +26,7 @@ var currentName =  global.items[# currentObj, ITEM.NAME];
 	}
 
 	if(hasDeadBabyCorpse && hasDeadCornCorpse && hasRockNRoll){
+		audio_play_sound(sndEarthQuake, 10, false);
 		NewTextBoxCallback("You added a "+currentName+ ".", 1, ScreenShake, [7, 120]);
 		NewTextBoxCallback("You hear a loud noise.", 1, ScreenShake, [15, 120]);
 		NewTextBoxCallback("You feel nauseous.", 1, LaunchUserEvent3);

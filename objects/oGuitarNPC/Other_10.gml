@@ -8,12 +8,12 @@ with(oTeenagerNPC){
 }
 
 if(!hasDiscount){
-		NewTextBox("Cool guitar, huuuh?");
-		NewTextBox("I'll be famous with this guitar...");
+		NewTextBox("Cool #2guitar#0, huuuh?");
+		NewTextBox("I'll be famous with this #2guitar#0...");
 	}
 	else{
 		NewTextBox("Sure, you can borrow my guitar!");
-		NewTextBoxCallback("Help yourself bro!", 1, NotifyItemGiven, [ITEMS.GUITAR, true]);
+		NewTextBoxCallback("Help yourself #1bro#0!", 0, NotifyItemGiven, [ITEMS.GUITAR, true]);
 	}
 
 

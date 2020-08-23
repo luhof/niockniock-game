@@ -20,6 +20,7 @@ switch(room){
 	case rHouseMom:
 	case rHouseGirl:
 	case rCinemaEntrance:
+	case rHouseWizard:
 	case rGarage:
 		zikmu = sndInside;
 		break;
@@ -47,6 +48,8 @@ switch(room){
 		zikmu = sndLimbo;
 		break;
 	case rCinematicIntro:
+	case rCinematicIntroWait:
+	case rMenu:
 		zikmu = sndDream;
 		break;
 	case rCinematic1:

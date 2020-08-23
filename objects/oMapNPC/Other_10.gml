@@ -9,7 +9,7 @@ with(oShopKeeperNPC){
 
 if(!hasDiscount){
 		NewTextBox("That's a map of the #2Lost Woods#0.");
-		NewTextBox("It costs #2100 coin#0.");
+		NewTextBox("It costs #2100 coins#0.");
 		NewTextBox("You don't have 100 coins?");
 		NewTextBox("Too bad, come back later.");
 	}

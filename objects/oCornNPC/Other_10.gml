@@ -13,8 +13,9 @@ if(!happy){
 else{
 	NewTextBox("I'm sorry, Niock-Niock.");
 	NewTextBox("I don't think I want to be part of this harrassment anymore.");
+	NewTextBox("That's it, I #2lost faith in humanity#0.");
 	NewTextBox("Please, for once, do something nice. End my corn suffering.")
-	NewTextBoxChoice("Kill him with something?", 1, ["4:Sure, why not","0:Nah."]);
+	NewTextBoxChoice("Kill him?", 1, ["4:Sure","0:Nah"]);
 }
 
 
