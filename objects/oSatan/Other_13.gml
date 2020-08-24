@@ -7,6 +7,10 @@ with(oCamera){
 	shallFadeToBlack = true;
 }
 
+with(oInventory){
+	global.inventory = ds_list_create();	
+}
+
 with(oPlayer){
 	isGhost = true;
 	spriteIdle = sPlayerGhost;

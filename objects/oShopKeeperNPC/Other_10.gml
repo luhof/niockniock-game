@@ -2,7 +2,7 @@
 
 if(happy){
 	NewTextBox("#1Munch Munch#0");	
-	NewTextBox("Feel free to buy something from our store, I'll give you a good price!");
+	NewTextBox("Feel free to buy from our store, I'll give you a good price!");
 }
 else{
 	NewTextBox("Good morning, dear #2customer#0!");

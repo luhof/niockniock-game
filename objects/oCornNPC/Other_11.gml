@@ -1,7 +1,7 @@
 /// @description onItemGiven
 
 if(global.inventory[| proposedItem] == wantedItem){
-	NewTextBoxCallback("What is it ?", 1, RemoveInventoryItem, [proposedItem]);
+	NewTextBoxCallback("What is it ?", 0, RemoveInventoryItem, [proposedItem]);
 	NewTextBox("...");
 	NewTextBox("So that's the Pop-Corn everybody's talking about...");
 	NewTextBox("Flesh of my siblings. Inside-out. After being burned alive.");

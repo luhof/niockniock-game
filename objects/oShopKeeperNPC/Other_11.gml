@@ -6,7 +6,7 @@ if(global.inventory[| proposedItem] == wantedItem){
 	NewTextBox("I can trade it with this #2nude magazine#0...");
 	NewTextBox("I'm not allowed to sell used items anyway...");
 	NewTextBox("The shopkeeper winks at you.",1);
-	NewTextBox("Feel free to look at our items on sale. I may apply an extra discount!");
+	NewTextBox("Look at our items on sale. I'llapply an extra discount!");
 	NewTextBoxCallback("Hey! Don't forget your #2nude magazine#0!", 0, NotifyItemGiven, [ITEMS.NUDEMAG]);
 
 	
