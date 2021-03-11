@@ -1,5 +1,6 @@
 # niockniock-game
 Runs on obsolete version. 2D topdown adventure engine.
+## you can find executable (PC/MAC) here : https://luhof.itch.io/niock-niock
 <img src="https://img.itch.zone/aW1nLzQxMDkyMzkucG5n/original/Hk3APl.png"/>
 <img src="https://img.itch.zone/aW1hZ2UvNzM4MDE1LzQxMDkwMjYucG5n/347x500/raxrs6.png"/>
 
